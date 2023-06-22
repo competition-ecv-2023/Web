@@ -83,6 +83,15 @@ header button {
     margin-bottom: 200px;
 }
 
+.first-section .counter {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.first-section .counter #nbr {
+    text-decoration: underline;
+}
+
 .first-section__orange-round-top {
     position: absolute;
     left: -20px;
