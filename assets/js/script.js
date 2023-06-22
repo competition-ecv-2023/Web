@@ -47,7 +47,7 @@ const speed = 0.1;
 function incEltNbr(id) {
   elt = document.getElementById(id);
   endNbr = Number(document.getElementById(id).innerHTML);
-  incNbrRec(4000, endNbr, elt);
+  incNbrRec(300, endNbr, elt);
 }
 
 function incNbrRec(i, endNbr, elt) {
