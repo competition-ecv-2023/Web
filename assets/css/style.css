@@ -61,8 +61,12 @@ header>div {
 
 .header-navigation a {
     text-decoration: none;
-    color: black;
+    color:var(--dark-blue);
     font-weight: bold;
+}
+
+.header-navigation a:hover {
+    text-decoration: underline;
 }
 
 header img {
@@ -294,6 +298,7 @@ header button {
 .second-section>div>div {
     text-align: center;
     width: 25%;
+    color: var(--dark-blue);
 }
 
 .second-section__orange {
@@ -432,6 +437,19 @@ footer div div {
 
 footer div div a {
     color: var(--beige);
+}
+
+footer .footer__social-networks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .footer__social-networks img {
+    width: 30px;
+    height: 30px;
 }
 
 @media only screen and (max-width: 1200px) {
